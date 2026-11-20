@@ -1,0 +1,1 @@
+import{t as e}from"./firma.BB5f9d0p.js";document.querySelector(`[data-form-contract]`)?.addEventListener(`submit`,t=>{t.preventDefault();let n=new FormData(t.target),r=`Bună ziua! Aș vrea să preluați contractul de service pentru casa mea de marcat.\nModel: ${n.get(`model`)}\nLocalitate: ${n.get(`loc`)}\nFirma: ${n.get(`firma`)}`;window.open(e(r),`_blank`,`noopener`)});

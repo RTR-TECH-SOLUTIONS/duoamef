@@ -1,0 +1,2 @@
+import{t as e}from"./firma.BB5f9d0p.js";document.querySelector(`[data-form-contact]`)?.addEventListener(`submit`,t=>{t.preventDefault();let n=new FormData(t.target),r=[`Bună ziua! ${n.get(`subiect`)}.`,`Nume: ${n.get(`nume`)}`,`Telefon: ${n.get(`telefon`)}`,`Localitate: ${n.get(`loc`)}`,n.get(`mesaj`)?`Mesaj: ${n.get(`mesaj`)}`:``].filter(Boolean).join(`
+`);window.open(e(r),`_blank`,`noopener`)});
